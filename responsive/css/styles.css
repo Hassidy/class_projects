@@ -31,12 +31,12 @@ a:hover {
 header {
     text-align: center;
     padding: 40px;
-    border-bottom: 2px solid #849474;
 }
 
 nav {
     text-align: center;
     border-bottom: 2px solid #849474;
+    border-radius: 20px;
 }
 
 nav ul {
@@ -52,7 +52,8 @@ nav li a {
     display: block;
     background-color: #472437;
     color: #E3C0C5;
-    height: 40px;
+    height: 60px;
+    min-width: fit-content;
     line-height: 40px;
     font-size: 20px;
     text-decoration: none;
@@ -128,6 +129,7 @@ footer {
         margin:10px;
         padding: 10px;
         border-radius: 10px;
+        width: 33%;
     }
 
     .col img {
